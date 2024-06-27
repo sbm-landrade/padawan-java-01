@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package sintaxe_variaveis_e_fluxo;
 
 public class TestaVariaveis {
@@ -19,25 +19,3 @@ public class TestaVariaveis {
 		System.out.println("a idade é " + idade);
 	}
 }
-=======
-package sintaxe_variaveis_e_fluxo;
-
-public class TestaVariaveis {
-	public static void main(String[] args) {
-		System.out.println("Ola mundo teste");
-		
-		int idade;
-		idade = 37;
-		
-		System.out.println(idade);
-		
-		idade = 30 + 10;
-		
-		System.out.println(idade);
-		
-		idade = (7 * 5) + 2;
-		
-		System.out.println("a idade é " + idade);
-	}
-}
->>>>>>> eb3ca7a258bc3a80dc9bd3a2f2723fe5586db78e
