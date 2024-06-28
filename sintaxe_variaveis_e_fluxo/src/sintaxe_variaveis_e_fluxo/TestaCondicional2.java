@@ -6,7 +6,7 @@ public class TestaCondicional2 {
 		System.out.println("Testando condicionais");
 		int idade = 20;
 		int quantidadePessoas = 3;
-		boolean acompanhado = quantidadePessoas >= 3;
+		boolean acompanhado = quantidadePessoas >= 2;
 		
 		System.out.println("Valor de acompanhado = " + acompanhado);
 		
