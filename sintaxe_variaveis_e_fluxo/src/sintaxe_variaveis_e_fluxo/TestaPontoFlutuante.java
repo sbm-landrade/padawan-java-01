@@ -18,3 +18,4 @@ public class TestaPontoFlutuante {
 		double novaTentativa =  5.0 / 2;
 		System.out.println(novaTentativa);
 	}
+}
