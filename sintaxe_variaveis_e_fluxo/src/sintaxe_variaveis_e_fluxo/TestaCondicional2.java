@@ -1,21 +1,20 @@
 package sintaxe_variaveis_e_fluxo;
 
-public class TestaCondicional {
+public class TestaCondicional2 {
 
 	public static void main(String[] args) {
 		System.out.println("Testando condicionais");
 		int idade = 20;
 		int quantidadePessoas = 3;
-		if (idade >= 18) {
-			System.out.println("Você tem mais de 18 anos");
+		boolean acompanhado = quantidadePessoas >= 3;
+		
+		System.out.println("Valor de acompanhado = " + acompanhado);
+		
+		if (idade >= 18 && acompanhado) {
 			System.out.println("Seja bem vindo");
-		} else {
-			if (quantidadePessoas >= 2) {
-				System.out.println("Você não tem 18, mas pode entrar, "
-						+ "posis está acompanhado");
 			} else {
 				System.out.println("Infelizmente você não pode entrar");
 			}
-		}
 	}
 }
+
